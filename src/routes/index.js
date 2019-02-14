@@ -2,11 +2,11 @@ const express = require("express");
 const router = express.Router();
 
 router.get("/", (req, res) => {
-    res.render("index.html", { title: "First Website" });
+    res.render("index", { title: "First Web Node" });
 });
 
 router.get("/contact", (req, res) => {
-    res.render("contact.html", { title: "Contact page" });
+    res.render("contact", { title: "Contact page" });
 });
 
 module.exports = router;
