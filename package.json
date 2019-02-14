@@ -1,0 +1,30 @@
+{
+  "name": "Curso-Nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src",
+    "dev": "nodemon src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piojo2287/Curso-Nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piojo2287/Curso-Nodejs/issues"
+  },
+  "homepage": "https://github.com/piojo2287/Curso-Nodejs#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
