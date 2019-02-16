@@ -1,12 +1,10 @@
 {
-  "name": "curso-nodejs" ,
+  "name": "curso-nodejs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-
-    "start": "node src",
-    "dev": "nodemon src/"
+    "start": "node src"
   },
   "repository": {
     "type": "git",
